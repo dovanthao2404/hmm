@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.root .background {
+  background-image: url("../assets/images/34-347155_romantic-love-background-hd.png");
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.root .background .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.root .background .content-container .content .box-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.root .background .content-container .content .box-button .yes {
+  position: absolute;
+  z-index: 100;
+  left: 100px;
+}
+
+.root .background .content-container .content .box-button .no {
+  position: absolute;
+  z-index: 98;
+  right: 100px;
+}
+
+.root .open-messenger {
+  width: 100%;
+  height: 100%;
+}
+
+.root .open-messenger > div.open {
+  position: absolute;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
